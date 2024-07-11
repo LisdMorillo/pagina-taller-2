@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    background-color: #e2e2e2;
+    padding: 2em;
+    text-align: center;
+}
+
+.promociones {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.promocion {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    width: 45%;
+}
+
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    color: #333;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.producto p {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+.producto button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.producto button:hover {
+    background-color: #45a049;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.social-icons a:hover {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.subscribe-email {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.btn-subscribe {
+    cursor: pointer;
+}
+
+.carousel-item img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 400px;
+}
+
+#carouselExample {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(100%);
+}
